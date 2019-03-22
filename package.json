@@ -2,7 +2,7 @@
   "name": "Node-Blog",
   "version": "1.0.0",
   "description": "## Topics",
-  "main": "knexfile.js",
+  "main": "index.js",
   "scripts": {
     "start": "node index.js",
     "server": "nodemon index.js"
@@ -19,11 +19,13 @@
   },
   "homepage": "https://github.com/DaftBeowulf/Node-Blog#readme",
   "devDependencies": {
+    "knex-cleaner": "^1.1.4",
     "nodemon": "^1.18.10"
   },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.16.4",
+    "helmet": "^3.16.0",
     "knex": "^0.16.3",
     "sqlite3": "^4.0.6"
   }
